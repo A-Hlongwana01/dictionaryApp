@@ -1,4 +1,4 @@
-package com.plcoding.dictionary.feature_dictionary.data.local.entity
+package com.example.myapplication.feature_dictionary.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

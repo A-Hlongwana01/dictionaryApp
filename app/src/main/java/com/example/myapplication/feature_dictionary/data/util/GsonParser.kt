@@ -1,4 +1,4 @@
-package com.plcoding.dictionary.feature_dictionary.data.util
+package com.example.myapplication.feature_dictionary.data.util
 
 import com.google.gson.Gson
 import com.google.gson.JsonParser

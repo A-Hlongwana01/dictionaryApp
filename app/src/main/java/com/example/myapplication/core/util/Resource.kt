@@ -1,4 +1,4 @@
-package com.plcoding.dictionary.core.util
+package com.example.myapplication.core.util
 
 import androidx.annotation.StringRes
 

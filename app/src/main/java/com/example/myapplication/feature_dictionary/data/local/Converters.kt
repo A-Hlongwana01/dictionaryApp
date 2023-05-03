@@ -1,4 +1,4 @@
-package com.plcoding.dictionary.feature_dictionary.data.local
+package com.example.myapplication.feature_dictionary.data.local
 
 import androidx.room.ProvidedTypeConverter
 import androidx.room.TypeConverter

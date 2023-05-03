@@ -1,5 +1,7 @@
 package com.example.myapplication.feature_dictionary.data.remote.dto
 
+
+import com.google.gson.annotations.SerializedName
 import com.example.myapplication.feature_dictionary.domain.model.Definition
 
 data class DefinitionDto(
