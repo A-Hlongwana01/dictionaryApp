@@ -1,7 +1,6 @@
 package com.example.myapplication.feature_dictionary.data.util
 
 import com.google.gson.Gson
-import com.google.gson.JsonParser
 import java.lang.reflect.Type
 
 class GsonParser(
