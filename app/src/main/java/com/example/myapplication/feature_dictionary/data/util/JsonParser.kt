@@ -2,7 +2,7 @@ package com.example.myapplication.feature_dictionary.data.util
 
 import java.lang.reflect.Type
 
-interface jsonParser {
+interface JsonParser {
     fun <T> fromJson(json:String, type: Type): T?
 
     fun <T> toJson(obj: T, type: Type): String?

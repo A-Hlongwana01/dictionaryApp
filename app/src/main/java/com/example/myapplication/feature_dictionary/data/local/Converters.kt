@@ -3,8 +3,8 @@ package com.example.myapplication.feature_dictionary.data.local
 import androidx.room.ProvidedTypeConverter
 import androidx.room.TypeConverter
 import com.example.myapplication.feature_dictionary.domain.model.Meaning
-import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
+import com.example.myapplication.feature_dictionary.data.util.JsonParser
 
 @ProvidedTypeConverter
 class Converters(
