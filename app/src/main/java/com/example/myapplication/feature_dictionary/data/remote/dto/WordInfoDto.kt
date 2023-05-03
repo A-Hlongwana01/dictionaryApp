@@ -7,15 +7,18 @@ data class WordInfoDto(
     val meanings: List<MeaningDto>,
     val phonetic: String,
     val phonetics: List<PhoneticDto>,
-    val sourceUrls: List<String>,
-    val word: String
+//    val sourceUrls: List<String>,
+    val word: String,
+    val origin: String
 ) {
     fun toWordInfo(): WordInfo {
         return WordInfo(
             meanings = meanings.map { it.toMeaning() },
             license = license,
             phonetic = phonetic,
-            word = word
+            //            sourceUrls = sourceUrls,
+            origin = origin,
+            phonetics = phonetics
         )
     }
 }
